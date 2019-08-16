@@ -11,20 +11,20 @@ Can be extended to work with any n-DOF robot by editing [configs.hpp](./firmware
 
 
 
-|Command|Syntax|Description
-|----|----|----|----|
-| |Move Joint|
-| `M1` | `M1 i`      | i = joint_number (1-17)
-| `M2` | `M2 i a`    | a = angle in `degrees*10`
-| `M3` | `M3 i a t`  | t = animation time, in millis
-| |Play animation|
-| `P1` | `P1 i`      | i = animation number
-| |Queue animation      |
-| `Q1` | `Q1 i`      | i = animation number
-| |Move servo by us (microseconds)
-| `U1` | `U1 i`      | i = joint_number (1-17)
-| `U2` | `U2 i a`    | a = angle in `degrees*10`
-| `U3` | `U3 i a t`  | t = animation time, in millis
+| Command | Syntax                          | Description                   |
+| ------- | ------------------------------- | ----------------------------- |
+|         | Move Joint                      |                               |
+| `M1`    | `M1 i`                          | i = joint_number (1-17)       |
+| `M2`    | `M2 i a`                        | a = angle in `degrees*10`     |
+| `M3`    | `M3 i a t`                      | t = animation time, in millis |
+|         | Play animation                  |                               |
+| `P1`    | `P1 i`                          | i = animation number          |
+|         | Queue animation                 |                               |
+| `Q1`    | `Q1 i`                          | i = animation number          |
+|         | Move servo by us (microseconds) |                               |
+| `U1`    | `U1 i`                          | i = joint_number (1-17)       |
+| `U2`    | `U2 i a`                        | a = angle in `degrees*10`     |
+| `U3`    | `U3 i a t`                      | t = animation time, in millis |
 
 ## Adding animation
 * 
